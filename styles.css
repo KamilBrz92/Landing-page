@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    
+}
+
+/*END OF RESET */
+
+.nav {
+    background-color: #1f2937;
+    padding: 20px 100px;
+    padding-bottom: 0px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li.logo {
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/*END OF NAV */
+
+.hero {
+    background-color: #1f2937;
+    padding: 100px 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.info {
+    flex: 1;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-button{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.image {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.information {
+    background-color: white;
+    padding: 40px 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.squares-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.whole-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.square-box {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border: solid #3882f6;
+}
+
+.box-text {
+    padding-top: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    padding: 50px 200px;
+    background-color: #e5e7eb;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+h4 {
+    font-weight: 900;
+    text-align: end;
+}
+
+.call {
+    background-color: white;
+    padding: 50px 150px;
+}
+
+.sign-up-box {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.action-message-text {
+    color: white;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border: solid white 2px;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
